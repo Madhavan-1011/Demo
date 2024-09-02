@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T07:24:19 IST" name="Default suite" finished-at="2024-05-15T07:24:22 IST" duration-ms="2709">
+    <groups>
+    </groups>
+    <test started-at="2024-05-15T07:24:19 IST" name="Default test" finished-at="2024-05-15T07:24:22 IST" duration-ms="2709">
+      <class name="dynamicJson">
+        <test-method signature="staticJson()[pri:0, instance:dynamicJson@2d710f1a]" started-at="2024-05-15T07:24:19 IST" name="staticJson" finished-at="2024-05-15T07:24:20 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticJson -->
+        <test-method signature="addBooks(Files.AddbookPayload)[pri:1, instance:dynamicJson@2d710f1a]" started-at="2024-05-15T07:24:20 IST" name="addBooks" data-provider="BookProvider" finished-at="2024-05-15T07:24:20 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Files.AddbookPayload@28a9494b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBooks -->
+        <test-method signature="addBooks(Files.AddbookPayload)[pri:1, instance:dynamicJson@2d710f1a]" started-at="2024-05-15T07:24:20 IST" name="addBooks" data-provider="BookProvider" finished-at="2024-05-15T07:24:21 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Files.AddbookPayload@318c68d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBooks -->
+        <test-method signature="addBooks(Files.AddbookPayload)[pri:1, instance:dynamicJson@2d710f1a]" started-at="2024-05-15T07:24:21 IST" name="addBooks" data-provider="BookProvider" finished-at="2024-05-15T07:24:21 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Files.AddbookPayload@71b6172c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBooks -->
+        <test-method signature="addBooks(Files.AddbookPayload)[pri:1, instance:dynamicJson@2d710f1a]" started-at="2024-05-15T07:24:21 IST" name="addBooks" data-provider="BookProvider" finished-at="2024-05-15T07:24:21 IST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Files.AddbookPayload@21c747a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBooks -->
+        <test-method signature="deleteAllBook()[pri:2, instance:dynamicJson@2d710f1a]" started-at="2024-05-15T07:24:21 IST" name="deleteAllBook" finished-at="2024-05-15T07:24:22 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllBook -->
+      </class> <!-- dynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
